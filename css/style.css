@@ -1,0 +1,211 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+} 
+ 
+:root{
+    --main-color: rgb(14, 161, 230);
+}
+
+header{
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100px;
+    padding: 0px 30px;
+    box-sizing: border-box;
+    transition: .2s linear;
+}
+
+img{
+    width: 100%;
+    
+
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,224,254,0.7),rgba(17,7,254,0.5));
+}
+.carousel-item{
+    height: 100vh;
+    min-width: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.carousel-caption{
+    bottom: 220px;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: merienda;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    font-family: poppins;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    background: linear-gradient(to right,#00e0fe,#1107fe);
+    padding: 14px 22px;
+    border-radius: 100px;
+    border: none;
+    font-size: 500;
+    color: #fff;
+    
+}
+
+.navbar-nav a{
+    font-family: poppins;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-decoration: none;
+    
+    transition: all 0.4s ease;
+}
+
+.navbar-light .navbar-brand{
+    color: var(--main-color);
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .nav-link.active a:hover{
+    background: -webkit-linear-gradient(#00e0fe,#1107fe) !important;
+  
+    -webkit-text-fill-color: transparent;
+}
+.nav-item a:hover{
+    color: var(--main-color)!important;
+
+}
+.w-100{
+    height: 100vh;
+}
+.service{
+    background-color: rgb(172, 218, 219);
+}
+
+.section-intro{ 
+     margin-bottom: 40px;
+     font-weight: bolder;
+}
+
+.section-intro .divider{
+    height: 4px;
+    width: 70px;
+    background: linear-gradient(to right,#00e0fe,#1107fe); 
+    margin:  16px auto;  
+}
+.section-intro p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    font-family: poppins;
+}
+
+.outer-container{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-justify{
+   font-size: 25px;
+   margin: auto;
+   font-family: poppins;
+}
+.para{
+    font-family: sans-serif;
+}
+.service .service-img{
+    position: relative;
+}
+.service .service-img .icon{
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(to right,#00e0fe,#1107fe);
+    color: #fff;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.service .service-img .icon i{
+    font-size: 32px;
+}
+.form{
+    height: 100vh;
+    min-width: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.btn{
+    text-transform: uppercase;
+    background: linear-gradient(to right,#00e0fe,#1107fe);
+    padding: 14px 22px;
+    border-radius: 100px;
+    border: none;
+    font-size: 500;
+    align-items: center;
+    color: #fff;
+}
+.form-control{
+   height: 54px;
+   border-radius: 0;
+   background: transparent;
+   color: #fff;
+   border-color: rgba(255, 255, 255, 0.5);
+}
+.form-control::placeholder{
+    color: #fff;
+}
+.form-control:focus{
+    color: #fff;
+    background: transparent;
+    border-color:#fff;
+}
+footer{
+    background: linear-gradient(to right,#00e0fe,#1107fe);
+    color: #fff;
+}
+footer a{
+    text-align: left;
+    color: #fff;
+}
+
+.info h5{
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    font-family: poppins;
+}
+.info p{
+    text-align: center;
+    font-size: 15px;
+    margin: auto;
+    font-family: sans-serif;
+}
